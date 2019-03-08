@@ -1,0 +1,14 @@
+
+
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=P_PSInRebate_UAT_2016
+    username: sa
+    password: 123456
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+
